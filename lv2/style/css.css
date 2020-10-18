@@ -1,0 +1,276 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+ul,li
+{
+    list-style: none;
+}
+a
+{
+    text-decoration: none;
+}
+
+body
+{
+    width: 800px;
+    height: 800px;
+}
+.container
+{
+    width: 600px;
+    border: 1px solid black;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    overflow: hidden;
+}
+.top
+{
+    width: 100%;
+    height: 50px;
+    background-color: #f3f3f3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.top .text
+{
+    font-size: 20px;
+    margin-left: 20px;
+    color: #757575;
+}
+.top .cancle
+{
+    font-weight: bold;
+    color: #c2c2c2;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.login
+{
+    width: 300px;
+    margin: 0 auto;
+}
+.login .user
+{
+    float: left;
+    font-size: 14px;
+    color: #5e5e5e;
+    font-weight: bold;
+    margin: 20px 0 4px 0;
+}
+.login .text
+{
+    float: left;
+    width: 100%;
+    height: 30px;
+    border: 1px solid #757575;
+    border-radius: 4px;
+    padding-left: 12px;
+}
+.login .password
+{
+    float: left;
+    font-size: 14px;
+    color: #5e5e5e;
+    font-weight: bold;
+    margin: 10px 0 4px 0;
+}
+.login .forget_pass
+{
+    float: right;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 10px 0 4px 0;
+}
+.login .forget_pass a
+{
+    color: #5dbe9b;
+}
+.login .pass
+{
+    float: left;
+    width: 100%;
+    height: 30px;
+    border: 1px solid #757575;
+    border-radius: 4px;
+    padding-left: 12px;
+}
+.login .phone
+{
+    float: left;
+    font-size: 14px;
+    color: #5dbe9b;
+    font-weight: 600;
+    margin: 20px 0 20px 0;
+}
+.login .botton
+{
+    float: left;
+    width: 105%;
+    height: 30px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 30px;
+    background-color: #009a61;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+.login .left_line
+{
+    float: left;
+    width: 100px;
+    height: 2px;
+    border-top: 1px solid #eee;
+    margin: 10px 10px 0 0;
+}
+.login .more_p
+{
+    float: left;
+    font-size: 14px;
+    color: #a3a3a3;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.login .right_line
+{
+    float: right;
+    width: 100px;
+    height: 2px;
+    border-top: 1px solid #eee;
+    margin-right: -14px;
+    margin-top: 10px;
+}
+.pic
+{
+    float: left;
+    width: 100%;
+    height: 30px;
+    overflow: hidden;
+}
+.pic img
+{
+    width: 200px;
+}
+.pic .pic1
+{
+    float: left;
+    display: block;
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    margin: 0 0 0 54px;
+}
+.pic .pic2
+{
+    float: left;
+    display: block;
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+}
+.pic2 img
+{
+    margin: 0 0 0 -30px;
+}
+.pic .pic3
+{
+    float: left;
+    display: block;
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+}
+.pic3 img
+{
+    margin: 0 0 0 -58px;
+}
+.pic .pic4
+{
+    float: left;
+    display: block;
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+}
+.pic4 img
+{
+    margin: 0 0 0 -90px;
+}
+.pic .pic5
+{
+    float: left;
+    display: block;
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+}
+.pic5 img
+{
+    margin: 0 0 0 -120px;
+}
+.pic .pic6
+{
+    float: left;
+    display: block;
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+}
+.pic6 img
+{
+    margin: 0 0 0 -150px;
+}
+.pic .pic7
+{
+    float: left;
+    display: block;
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+}
+.pic7 img
+{
+    margin: 0 0 0 -180px;
+}
+
+.register
+{
+    float: left;
+    width: 105%;
+    height: 40px;
+    text-align: center;
+    border: 1px solid #757575;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+.register .res_botton
+{
+    width: 105%;
+    line-height: 40px;
+    background-color: #fff;
+    color: #757575;
+}
+
+.end
+{
+    width: 105%;
+    float: left;
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 30px;
+    color: #757575;
+}
+.end .serve
+{
+    color: #009a61;
+}
+.end .privacy
+{
+    color: #009a61;
+}
